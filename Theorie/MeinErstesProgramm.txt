@@ -1,0 +1,12 @@
+public class MeinErstesProgramm
+{
+	public static void Main()
+	{
+		System.Console.WriteLine("Hello world!");
+	}
+}
+// Groß-/Kleinschreibung wird unterschieden!!!(case-sensitiv)
+
+/* 1. Zeile Kommentar
+   2. Zeile Kommentar
+   3. Zeile Kommentar*/
