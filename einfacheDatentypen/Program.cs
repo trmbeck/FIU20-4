@@ -111,6 +111,8 @@ namespace einfacheDatentypen
             Console.Write(tasteDruecken);
             Console.ReadKey();
 
+
+            //Meine Code-Änderung
         }
     }
 }
