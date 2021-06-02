@@ -109,10 +109,103 @@ namespace einfacheDatentypen
             Console.WriteLine("Ergebnis: " + (kzahl1 + kzahl2));
 
             Console.Write(tasteDruecken);
+
+            //Datentyp boolean Speicher: 1 Byte
+            bool zustand = true;
+            zustand = false;
+
+            //Vergleichsoperatoren
+            bool groesser = 10 > 5;
+            bool kleiner = 5 < 10;
+            bool kleinerGleich = 10 <= 10;
+            bool groesserGleich = 10 >= 10;
+            bool istGleich = zahl1 == zahl2;
+            bool ungleich = zahl1 != zahl2;
+
+            int alterDesUsers = 17;
+
+            bool nochmalSpielen = false;
+            do
+            {
+                //Auswahl des Spiels
+                //Prüfung des Alters, wenn Spiel ab 18
+                if (alterDesUsers >= 18)
+                {
+                    // User darf Spiel spielen
+                    Console.WriteLine("User spielt");
+                }
+                else
+                {
+                    // User darf Spiel NICHT spielen
+                    // Ausgabe zu jung
+                    Console.WriteLine("User zu jung");
+                }
+                //highscore anzeigen
+                //nochmal oder anderes spiel?
+                Console.WriteLine("Nochmal?");
+                if (Console.ReadLine()=="Ja")
+                {
+                    nochmalSpielen = true;
+                }
+                else
+                {
+                    nochmalSpielen = false;
+                }
+            } while (nochmalSpielen);
+
+
+            Console.WriteLine(kleiner);
+            /*
+             Logische Operatoren
+
+             UND-Verknüpfung
+             A   &   B  |  C
+            -----------------
+             0       0  |  0
+             0       1  |  0
+             1       0  |  0
+             1       1  |  1
+             
+             ODER-Verknüpfung
+             A   |   B  |  C
+            -----------------
+             0       0  |  0
+             0       1  |  1
+             1       0  |  1
+             1       1  |  1
+             
+
+            EXKLUSIV ODER-Verknüpfung
+             A   ^   B  |  C
+            -----------------
+             0       0  |  0
+             0       1  |  1
+             1       0  |  1
+             1       1  |  0
+             
+
+            NICHT-Verknüpfung
+            A   !A
+            ------
+            0    1
+            1    0
+
+             */
+
+            bool ergebnis = groesser ^ groesserGleich;
+
+            bool ergebnisUmgekehrt = !ergebnis; //Invertierung
+
+            int EXORresult = 14 ^ 7;
+
+            /*
+                0 0 0 0  1 1 1 0
+                0 0 0 0  0 1 1 1 ^
+                ----------------
+                0 0 0 0  1 0 0 1
+            */
+
             Console.ReadKey();
-
-
-            //Meine Code-Änderung
         }
     }
 }
