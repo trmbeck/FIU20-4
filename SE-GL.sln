@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Themen", "Themen", "{D0BC44
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "einfacheDatentypen", "einfacheDatentypen\einfacheDatentypen.csproj", "{6ABD9132-2343-4A9A-99AD-D600FD6DA9A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GGT", "GGT\GGT.csproj", "{C4FD0A15-6355-4523-9CA2-E22130396719}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{6ABD9132-2343-4A9A-99AD-D600FD6DA9A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6ABD9132-2343-4A9A-99AD-D600FD6DA9A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6ABD9132-2343-4A9A-99AD-D600FD6DA9A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4FD0A15-6355-4523-9CA2-E22130396719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4FD0A15-6355-4523-9CA2-E22130396719}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4FD0A15-6355-4523-9CA2-E22130396719}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4FD0A15-6355-4523-9CA2-E22130396719}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{B68C48F5-BFF0-408C-A99C-FE4C42140574} = {D0BC4496-8732-4561-A907-89F19DE66F12}
 		{6ABD9132-2343-4A9A-99AD-D600FD6DA9A4} = {D0BC4496-8732-4561-A907-89F19DE66F12}
+		{C4FD0A15-6355-4523-9CA2-E22130396719} = {D0BC4496-8732-4561-A907-89F19DE66F12}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5BBFEE03-B236-48E1-958A-496CE40538EC}
