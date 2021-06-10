@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Typkonversion", "Typkonvers
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "windchill", "windchill\windchill.csproj", "{D3FBEDAA-975D-44D4-80DB-A333E5EA591F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPS-Daten", "GPS-Daten\GPS-Daten.csproj", "{EC8582C2-1D2B-4D72-B746-828F42C90D27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,10 @@ Global
 		{D3FBEDAA-975D-44D4-80DB-A333E5EA591F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3FBEDAA-975D-44D4-80DB-A333E5EA591F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3FBEDAA-975D-44D4-80DB-A333E5EA591F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC8582C2-1D2B-4D72-B746-828F42C90D27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC8582C2-1D2B-4D72-B746-828F42C90D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC8582C2-1D2B-4D72-B746-828F42C90D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC8582C2-1D2B-4D72-B746-828F42C90D27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,6 +93,7 @@ Global
 		{AA04776F-C1DD-4911-B154-6257112B8793} = {D0BC4496-8732-4561-A907-89F19DE66F12}
 		{A89FEF02-118A-4406-877E-AC6B0D56E7B4} = {D0BC4496-8732-4561-A907-89F19DE66F12}
 		{D3FBEDAA-975D-44D4-80DB-A333E5EA591F} = {D0BC4496-8732-4561-A907-89F19DE66F12}
+		{EC8582C2-1D2B-4D72-B746-828F42C90D27} = {D0BC4496-8732-4561-A907-89F19DE66F12}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5BBFEE03-B236-48E1-958A-496CE40538EC}
