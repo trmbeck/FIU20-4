@@ -21,17 +21,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GGT", "GGT\GGT.csproj", "{C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aufgabe1", "Aufgabe1\Aufgabe1.csproj", "{425E49F5-BBEF-40E5-A3F5-351E4288143A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Energieverbrauch", "Energieverbrauch\Energieverbrauch.csproj", "{C262E0B5-1B99-4286-A387-76DDB612A9DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Energieverbrauch", "Energieverbrauch\Energieverbrauch.csproj", "{C262E0B5-1B99-4286-A387-76DDB612A9DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zinsrechnung", "Zinsrechnung\Zinsrechnung.csproj", "{757525C8-6D0B-4DBD-B9A6-5B19BEF2E8CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zinsrechnung", "Zinsrechnung\Zinsrechnung.csproj", "{757525C8-6D0B-4DBD-B9A6-5B19BEF2E8CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringFormatierung", "StringFormatierung\StringFormatierung.csproj", "{AA04776F-C1DD-4911-B154-6257112B8793}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringFormatierung", "StringFormatierung\StringFormatierung.csproj", "{AA04776F-C1DD-4911-B154-6257112B8793}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Typkonversion", "Typkonversion\Typkonversion.csproj", "{A89FEF02-118A-4406-877E-AC6B0D56E7B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Typkonversion", "Typkonversion\Typkonversion.csproj", "{A89FEF02-118A-4406-877E-AC6B0D56E7B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "windchill", "windchill\windchill.csproj", "{D3FBEDAA-975D-44D4-80DB-A333E5EA591F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "windchill", "windchill\windchill.csproj", "{D3FBEDAA-975D-44D4-80DB-A333E5EA591F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPS-Daten", "GPS-Daten\GPS-Daten.csproj", "{EC8582C2-1D2B-4D72-B746-828F42C90D27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GPS-Daten", "GPS-Daten\GPS-Daten.csproj", "{EC8582C2-1D2B-4D72-B746-828F42C90D27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schraubenhersteller", "Schraubenhersteller\Schraubenhersteller.csproj", "{989B569B-E24E-4C01-9757-D5CB951C5745}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,6 +81,10 @@ Global
 		{EC8582C2-1D2B-4D72-B746-828F42C90D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC8582C2-1D2B-4D72-B746-828F42C90D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC8582C2-1D2B-4D72-B746-828F42C90D27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{989B569B-E24E-4C01-9757-D5CB951C5745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{989B569B-E24E-4C01-9757-D5CB951C5745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{989B569B-E24E-4C01-9757-D5CB951C5745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{989B569B-E24E-4C01-9757-D5CB951C5745}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -94,6 +100,7 @@ Global
 		{A89FEF02-118A-4406-877E-AC6B0D56E7B4} = {D0BC4496-8732-4561-A907-89F19DE66F12}
 		{D3FBEDAA-975D-44D4-80DB-A333E5EA591F} = {D0BC4496-8732-4561-A907-89F19DE66F12}
 		{EC8582C2-1D2B-4D72-B746-828F42C90D27} = {D0BC4496-8732-4561-A907-89F19DE66F12}
+		{989B569B-E24E-4C01-9757-D5CB951C5745} = {D0BC4496-8732-4561-A907-89F19DE66F12}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5BBFEE03-B236-48E1-958A-496CE40538EC}
