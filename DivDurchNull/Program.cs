@@ -17,6 +17,7 @@ namespace DivDurchNull
             if (double.IsNegativeInfinity(c))
                 Console.WriteLine("minus unendlich: " + c); // "minus unendlich"
 
+
             if (double.IsPositiveInfinity(c))
                 Console.WriteLine("plus unendlich: " + c); // "plus unendlich"
 
