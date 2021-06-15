@@ -33,13 +33,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "windchill", "windchill\wind
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GPS-Daten", "GPS-Daten\GPS-Daten.csproj", "{EC8582C2-1D2B-4D72-B746-828F42C90D27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schraubenhersteller", "Schraubenhersteller\Schraubenhersteller.csproj", "{989B569B-E24E-4C01-9757-D5CB951C5745}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schraubenhersteller", "Schraubenhersteller\Schraubenhersteller.csproj", "{989B569B-E24E-4C01-9757-D5CB951C5745}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autovermietung", "Autovermietung\Autovermietung.csproj", "{F08F1AF4-63F5-40E2-B1B3-E32FECDC50C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autovermietung", "Autovermietung\Autovermietung.csproj", "{F08F1AF4-63F5-40E2-B1B3-E32FECDC50C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geltungsbereiche", "Geltungsbereiche\Geltungsbereiche.csproj", "{CDB0A8CA-F116-4ADB-AC56-3F86626E63E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geltungsbereiche", "Geltungsbereiche\Geltungsbereiche.csproj", "{CDB0A8CA-F116-4ADB-AC56-3F86626E63E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quartale", "Quartale\Quartale.csproj", "{72A3AD80-9922-46B0-B9DE-BF1F01BD885B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quartale", "Quartale\Quartale.csproj", "{72A3AD80-9922-46B0-B9DE-BF1F01BD885B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMI", "BMI\BMI.csproj", "{AC880A78-F50B-4581-A70B-3BCC401BA253}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivDurchNull", "DivDurchNull\DivDurchNull.csproj", "{C58887A8-02F2-4C83-9D7E-BAA64F9CE117}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Treuepraemie", "Treuepraemie\Treuepraemie.csproj", "{2811D213-A409-4820-A270-2FA1FF81FFDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -103,6 +109,18 @@ Global
 		{72A3AD80-9922-46B0-B9DE-BF1F01BD885B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72A3AD80-9922-46B0-B9DE-BF1F01BD885B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72A3AD80-9922-46B0-B9DE-BF1F01BD885B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC880A78-F50B-4581-A70B-3BCC401BA253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC880A78-F50B-4581-A70B-3BCC401BA253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC880A78-F50B-4581-A70B-3BCC401BA253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC880A78-F50B-4581-A70B-3BCC401BA253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C58887A8-02F2-4C83-9D7E-BAA64F9CE117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C58887A8-02F2-4C83-9D7E-BAA64F9CE117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C58887A8-02F2-4C83-9D7E-BAA64F9CE117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C58887A8-02F2-4C83-9D7E-BAA64F9CE117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2811D213-A409-4820-A270-2FA1FF81FFDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2811D213-A409-4820-A270-2FA1FF81FFDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2811D213-A409-4820-A270-2FA1FF81FFDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2811D213-A409-4820-A270-2FA1FF81FFDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -122,6 +140,9 @@ Global
 		{F08F1AF4-63F5-40E2-B1B3-E32FECDC50C5} = {D0BC4496-8732-4561-A907-89F19DE66F12}
 		{CDB0A8CA-F116-4ADB-AC56-3F86626E63E3} = {D0BC4496-8732-4561-A907-89F19DE66F12}
 		{72A3AD80-9922-46B0-B9DE-BF1F01BD885B} = {D0BC4496-8732-4561-A907-89F19DE66F12}
+		{AC880A78-F50B-4581-A70B-3BCC401BA253} = {D0BC4496-8732-4561-A907-89F19DE66F12}
+		{C58887A8-02F2-4C83-9D7E-BAA64F9CE117} = {D0BC4496-8732-4561-A907-89F19DE66F12}
+		{2811D213-A409-4820-A270-2FA1FF81FFDB} = {D0BC4496-8732-4561-A907-89F19DE66F12}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5BBFEE03-B236-48E1-958A-496CE40538EC}
