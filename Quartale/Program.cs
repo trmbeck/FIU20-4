@@ -10,6 +10,7 @@ namespace Quartale
             string eingabe = Console.ReadLine();
             eingabe = eingabe.ToLower();
 
+            goto MeineSprungmarke;
 
             if (eingabe == "januar" || eingabe == "februar" || eingabe == "märz" 
                // || eingabe == "Januar" || eingabe == "Februar" || eingabe == "März"
@@ -24,7 +25,34 @@ namespace Quartale
                 Console.WriteLine("Q4");
             else Console.WriteLine("falsche Bezeichnung eingegeben");
 
+            MeineSprungmarke:
 
+            switch (eingabe)
+            {
+                case "januar":
+                case "februar":
+                case "märz":
+                    Console.WriteLine("Q1");
+                    break;
+                case "april":
+                case "mai":
+                case "juni":
+                    Console.WriteLine("Q2");
+                    break;
+                case "juli":
+                case "august":
+                case "september":
+                    Console.WriteLine("Q3");
+                    break;
+                case "oktober":
+                case "november":
+                case "dezember":
+                    Console.WriteLine("Q4");
+                    break;
+                default:
+                    Console.WriteLine("Falsche Eingabe");
+                    break;
+            }
         }
     }
 }

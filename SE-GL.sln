@@ -65,6 +65,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Passwort2", "Passwort2\Pass
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZahlenRaten", "ZahlenRaten\ZahlenRaten.csproj", "{180C57AC-FE9A-4791-A7B9-273629C885F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schulnote", "Schulnote\Schulnote.csproj", "{954B2D06-753E-4A9D-82A7-733F064D90BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D1ED6A2B-EFC2-4CB5-8E94-127C0C68CA7E}"
+	ProjectSection(SolutionItems) = preProject
+		Class1.cs = Class1.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -175,6 +182,10 @@ Global
 		{180C57AC-FE9A-4791-A7B9-273629C885F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{180C57AC-FE9A-4791-A7B9-273629C885F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{180C57AC-FE9A-4791-A7B9-273629C885F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{954B2D06-753E-4A9D-82A7-733F064D90BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{954B2D06-753E-4A9D-82A7-733F064D90BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{954B2D06-753E-4A9D-82A7-733F064D90BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{954B2D06-753E-4A9D-82A7-733F064D90BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -206,6 +217,7 @@ Global
 		{06CD57D3-5D9A-4CB8-B524-7284DFBB0ED3} = {D0BC4496-8732-4561-A907-89F19DE66F12}
 		{1CFFECB4-4412-4116-A33D-1960BC1EADF9} = {D0BC4496-8732-4561-A907-89F19DE66F12}
 		{180C57AC-FE9A-4791-A7B9-273629C885F0} = {D0BC4496-8732-4561-A907-89F19DE66F12}
+		{954B2D06-753E-4A9D-82A7-733F064D90BF} = {D0BC4496-8732-4561-A907-89F19DE66F12}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5BBFEE03-B236-48E1-958A-496CE40538EC}

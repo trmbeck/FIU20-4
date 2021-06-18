@@ -22,6 +22,26 @@ namespace Passwort2
                     if (eingabe.ToUpper() == "R") wurdeReingegeben = true;
                     if (eingabe.ToUpper() == "O") wurdeOeingegeben = true;
                     if (eingabe.ToUpper() == "G") wurdeGeingegeben = true;
+
+                    #region Lösung mit switch
+                    switch (eingabe.ToUpper())
+                    {
+                        case "P":
+                            wurdePeingegeben = true;
+                            break;
+                        case "R":
+                            wurdeReingegeben = true;
+                            break;
+                        case "O":
+                            wurdeOeingegeben = true;
+                            break;
+                        case "G":
+                            wurdeGeingegeben = true;
+                            break;
+                    }
+                    #endregion
+
+
                     zaehler++;
                 } while (zaehler <= 4);
                 zaehler = 1;
